@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.perpustakaan.dashboardController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="241.0" style="-fx-background-color: c5c9ff;">
+         <children>
+            <Button layoutY="148.0" mnemonicParsing="false" onAction="#dashboard" prefHeight="49.0" prefWidth="241.0" stylesheets="@../../css/dashboard.css" text="Dashboard" />
+            <ImageView fitHeight="49.0" fitWidth="53.0" layoutX="7.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/home.png" />
+               </image></ImageView>
+            <Button alignment="CENTER" layoutY="221.0" mnemonicParsing="false" onAction="#dataanggota" prefHeight="49.0" prefWidth="241.0" stylesheets="@../../css/dashboard.css" text="Profil Diri" />
+            <ImageView fitHeight="49.0" fitWidth="53.0" layoutX="7.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/user.png" />
+               </image></ImageView>
+            <Button alignment="CENTER" layoutY="300.0" mnemonicParsing="false" onAction="#databuku" prefHeight="49.0" prefWidth="241.0" stylesheets="@../../css/dashboard.css" text="Data buku" />
+            <Button alignment="CENTER" layoutY="382.0" mnemonicParsing="false" onAction="#riwayat" prefHeight="49.0" prefWidth="241.0" stylesheets="@../../css/dashboard.css" text="Riwayat Pinjam" />
+            <ImageView fitHeight="49.0" fitWidth="53.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true" />
+            <Button alignment="CENTER" layoutY="528.0" mnemonicParsing="false" onAction="#logout" prefHeight="49.0" prefWidth="241.0" stylesheets="@../../css/dashboard.css" text="Logout" />
+            <ImageView fitHeight="49.0" fitWidth="53.0" layoutX="7.0" layoutY="528.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="140.0" fitWidth="104.0" layoutX="69.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/grafika.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="42.0" layoutX="13.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/burger.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="53.0" layoutX="11.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/backup.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="271.0" layoutY="14.0" prefHeight="116.0" prefWidth="723.0" text="Profil Diri User">
+         <font>
+            <Font name="Verdana Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="271.0" layoutY="169.0" />
+   </children>
+</AnchorPane>
